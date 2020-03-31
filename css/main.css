@@ -105,10 +105,8 @@ section.section1 .intro-content{
     display: block;
     margin-top: 50px;
 }
-
-}
 section.section1 .intro-content h3{
-    margin-top:40px;
+    margin-top:30px;
     font-size:24px;
     letter-spacing: 2px;
     color:#fff;
@@ -151,63 +149,25 @@ section.section2 .section-title h1{
     font-size:40px;
     font-family: monospace;
     text-align: center;
-    color:purple;
+    color:goldenrod;
     text-transform: capitalize;
 }
 section.section2 .ccm{
+    margin-top:8em;
     display: flex;
     justify-content: space-evenly;
-}
-@media screen and (max-width: 747px){
- section.section2 .ccm{
-    display: block;
-    width: 100%;
-
-    
-}
-section.section2 .ccm .ccm-content{
-  width: 100%;
-  }
-  section.section2 .ccm .ccm-content .ccm-title{
-    width:100%;
-    text-align: center;
-}
-section.section2 .ccm .ccm-content .options{
-    width:100%;
-    /*margin-top:20px;*/
-}
-section.section2 .ccm .ccm-content .options ul{
-    text-align: center;
-}
-section.section2 .ccm .ccm-content .ccm-cta{
-    /*margin-top:30px;*/
-    width:70%;
-    margin: auto;
-    text-align: center;
-    border:2px solid purple;
-    background-color:purple;
-    /*padding:25px 15px;*/
-    border-radius: 20px;;
-}
-section.section2 .ccm .ccm-image img{
-    width: 100%;
-    display: block;
-}
 }
 section.section2 .ccm .ccm-content{
     margin-top: 50px;
 }
-section.section2 .ccm .ccm-content .ccm-title{
-    /*width:80%;*/
-}
 section.section2 .ccm .ccm-content .ccm-title h1{
     color:purple;
-    font-size:38px;
+    font-size:30px;
     padding:10px;
     text-transform: capitalize;
 }
 section.section2 .ccm .ccm-content .options{
-    /*width:60%;*/
+    width:100%;
     margin-top:20px;
 }
 section.section2 .ccm .ccm-content .options ul li{
@@ -222,18 +182,18 @@ section.section2 .ccm .ccm-content .options ul li .las{
 }
 section.section2 .ccm .ccm-content .ccm-cta{
     margin-top:30px;
-    width:40%;
+    width:60%;
     border:2px solid purple;
     background-color:purple;
     padding:25px 15px;
+    text-align: center;
     border-radius: 20px;;
 }
 section.section2 .ccm .ccm-content .ccm-cta a{
     text-decoration: none;
-    color:goldenrod;
+    color:gold;
     font-size: 15px;
     text-transform: uppercase;
-    margin:0 25px;
 }
 section.section2 .ccm .ccm-image{
   display: flex;
@@ -244,6 +204,287 @@ section.section2 .ccm .ccm-image img{
     max-width:100%;
     height:400px;
     display: block;
+}
+/***Section3****/
+section.section3{
+    margin-top:10em;
+    background-color:#fff;
+}
+section.section3 .section-title{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+section.section3 .section-title h1{
+    font-size:40px;
+    font-family: monospace;
+    text-align: center;
+    color:goldenrod;
+    text-transform: capitalize;
+}
+section.section3 .ccm{
+    display: flex;
+    justify-content: space-evenly;
+}
+section.section3 .ccm .ccm-content{
+    margin-top: 50px;
+}
+
+section.section3 .ccm .ccm-content .ccm-title h1{
+    color:purple;
+    font-size:30px;
+    padding:10px;
+    text-transform: capitalize;
+}
+section.section3 .ccm .ccm-content .options{
+    width:100%;
+    margin-top:20px;
+}
+section.section3 .ccm .ccm-content .options ul li{
+    list-style: none;
+    font-size:16px;
+    padding-top:15px;
+}
+section.section3 .ccm .ccm-content .options ul li .las{
+    margin-right:20px;
+    font-size:30px;
+    color:goldenrod;
+}
+section.section3 .ccm .ccm-content .ccm-cta{
+    margin-top:30px;
+    width:70%;
+    border:2px solid purple;
+    background-color:purple;
+    padding:25px 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+section.section3 .ccm .ccm-content .ccm-cta a{
+    text-decoration: none;
+    color:gold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+section.section3 .ccm .ccm-image{
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+section.section3 .ccm .ccm-image img{
+    max-width:100%;
+    height:400px;
+    display: block;
+}
+/****Section4***/
+section.section4{
+    margin-top:10em;
+    background-color:#fff;
+}
+section.section4 .section-title{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+section.section4 .section-title h1{
+    font-size:40px;
+    font-family: monospace;
+    text-align: center;
+    color:goldenrod;
+    text-transform: capitalize;
+}
+section.section4 .ccm{
+    display: flex;
+    justify-content: space-evenly;
+}
+section.section4 .ccm .ccm-content{
+    margin-top: 50px;
+}
+section.section4 .ccm .ccm-content .ccm-title h1{
+    color:purple;
+    font-size:30px;
+    padding:10px;
+    text-transform: capitalize;
+}
+section.section4 .ccm .ccm-content .options{
+    width:100%;
+    margin-top:20px;
+}
+section.section4 .ccm .ccm-content .options ul li{
+    list-style: none;
+    font-size:16px;
+    padding-top:15px;
+}
+section.section4 .ccm .ccm-content .options ul li .las{
+    margin-right:20px;
+    font-size:30px;
+    color:goldenrod;
+}
+section.section4 .ccm .ccm-content .ccm-cta{
+    margin-top:30px;
+    width:40%;
+    border:2px solid purple;
+    background-color:purple;
+    padding:25px 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+section.section4 .ccm .ccm-content .ccm-cta a{
+    text-decoration: none;
+    color:gold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+section.section4 .ccm .ccm-image{
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+section.section4 .ccm .ccm-image img{
+    max-width:100%;
+    height:400px;
+    display: block;
+}
+/*****section5***/
+section.section5{
+    margin-top:10em;
+}
+section.section5 .why-ccm{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+section.section5 .why-ccm h1{
+    text-align:center;
+    font-size:42px;
+    font-family: monospace;
+    text-align: center;
+    color:gold;
+    text-transform: capitalize;
+}
+section.section5 .reasons{
+    display:flex;
+    justify-content: space-evenly;
+}
+section.section5 .reasons .technologies{
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(201,201,201,0.68);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(201,201,201,0.68);
+    box-shadow: 0px 0px 14px 1px rgba(201,201,201,0.68);
+    width:25%;
+    margin-top:5em;
+    padding:25px;
+}
+section.section5 .reasons .technologies img{
+    width:100%;
+    height:auto;
+}
+section.section5 .reasons .technologies h3{
+    font-size:22px;
+    text-align:center;
+    color:gold;
+    margin-top:1.5em;
+}
+section.section5 .reasons .technologies p{
+    font-size:16px;
+    text-align: center;
+    color:grey;
+    margin-top:1.5em;
+    line-height:1.5em;
+}
+/**Experts**/
+section.section5 .reasons .experts{
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(201,201,201,0.68);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(201,201,201,0.68);
+    box-shadow: 0px 0px 14px 1px rgba(201,201,201,0.68);
+    width:25%;
+    margin-top:5em;
+    padding:25px;
+}
+section.section5 .reasons .experts img{
+    width:100%;
+    height:auto;
+}
+section.section5 .reasons .experts h3{
+    font-size:22px;
+    text-align:center;
+    color:gold;
+    margin-top:1.5em;
+}
+section.section5 .reasons .experts p{
+    font-size:16px;
+    text-align: center;
+    color:grey;
+    margin-top:1.5em;
+    line-height:1.5em;
+}
+/********Setups********/
+section.section5 .reasons .setups{
+    border-radius: 20px;
+    height:auto;
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(201,201,201,0.68);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(201,201,201,0.68);
+    box-shadow: 0px 0px 14px 1px rgba(201,201,201,0.68);
+    width:25%;
+    padding:25px;
+    margin-top:5em;
+}
+section.section5 .reasons .setups img{
+    width:100%;
+    height:auto;
+}
+section.section5 .reasons .setups h3{
+    font-size:22px;
+    text-align:center;
+    color:gold;
+    margin-top:1.5em;
+}
+section.section5 .reasons .setups p{
+    font-size:16px;
+    text-align: center;
+    color:grey;
+    margin-top:1.5em;
+    line-height:1.5em;
+}
+/****footer***/
+section.section6{
+    margin-top:8em;
+    height:auto;
+    background-color:purple;
+}
+section.section6 #footer .rule hr {
+    border: 1px solid gold;
+}
+section.section6 #footer .container .footy {
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.section6 #footer .container .footy .copyright {
+    padding-top:20px;
+    color: goldenrod;
+    margin-left: 50px;
+}
+
+section.section6 #footer .container .footy .social-icons ul {
+    float: right;
+    list-style: none;
+    margin-right:50px;
+}
+
+section.section6 #footer .container .footy .social-icons ul li {
+    float: left;
+    padding: 20px 10px;
+}
+
+section.section6 #footer .container .footy .social-icons ul li a {
+    color: #f6e049;
+    font-size:24px;
+}
+
+section.section6 #footer .container .footy .social-icons ul li a:hover {
+    color: plum;
 }
 /******MObile navigation reponsiveness***/
 @media screen and (max-width:570px){
@@ -323,7 +564,7 @@ section.section2 .ccm .ccm-image img{
         display: block;
     }
  }
- @media screen and (min-width:576px) and (max-width:768px) { 
+@media screen and (min-width:576px) and (max-width:768px) { 
     header .show-menu-btn,
     .hide-menu-btn {
         display: none;
@@ -350,3 +591,36 @@ section.section2 .ccm .ccm-image img{
      }
 
  }
+@media screen and (max-width: 747px){
+ section.section2 .ccm{
+    display: block;
+    width: 100%;  
+}
+section.section2 .ccm .ccm-content{
+  width: 100%;
+ }
+section.section2 .ccm .ccm-content .ccm-title{
+    width:100%;
+    text-align: center;
+}
+section.section2 .ccm .ccm-content .options{
+    width:100%;
+    margin-bottom:25px;
+}
+section.section2 .ccm .ccm-content .options ul{
+    text-align: center;
+}
+section.section2 .ccm .ccm-content .ccm-cta{
+    width:40%;
+    margin: auto;
+    text-align: center;
+    border:2px solid purple;
+    background-color:purple;
+    /*padding:25px 15px;*/
+    border-radius: 20px;;
+}
+section.section2 .ccm .ccm-image img{
+    width: 100%;
+    display: block;
+   }
+}
